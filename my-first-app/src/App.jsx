@@ -1,5 +1,5 @@
 import React from "react";
-import Button,{Button1} from "./components/Button";
+import Button, { Button1 } from "./components/button/Button";
 import Default from "./components/Default";
 import Named from "./components/Named";
 
@@ -7,12 +7,11 @@ import Named from "./components/Named";
 const App = () => {
   return (
     <div>
-      hello app
+      <p>hello app</p>
       <Button />
       <Button1 />
       <Named />
       <Default />
-      
     </div>
   );
 };

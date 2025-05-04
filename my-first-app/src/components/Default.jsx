@@ -3,7 +3,8 @@ import React from 'react'
 const Default = () => {
   return (
     <div>
-      default component ho
+      <p>testing the default
+        </p>
     </div>
   )
 }

@@ -1,0 +1,42 @@
+/* Button.css */
+.button,
+.button1 {
+    background-color: #485767;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%;
+    margin-bottom: 2px;
+    box-shadow: 0px 2px 12px rgb(167, 25, 25);
+}
+
+.button:hover {
+    background-color: #0c1b2a;
+    box-shadow: 0px 2px 12px blue;
+}
+
+
+
+.button1 {
+    margin-top: 66px;
+    background: linear-gradient(#006ddb, #5e16f9, #305c32);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    /* box-shadow: 12px 8px 15px rgba(0, 0, 0); */
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.button1:hover {
+    background-color: #0c1b2a;
+    box-shadow: 0px 2px 12px blue;
+}

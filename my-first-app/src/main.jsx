@@ -3,14 +3,12 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
 
-
 // import { App2 } from "./App";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <div>
       <App />
-      
     </div>
   </StrictMode>
 );

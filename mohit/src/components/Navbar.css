@@ -1,0 +1,39 @@
+
+.nav {
+    display: flex;
+    
+  }
+  
+  .navbar {
+    width: 80%;
+  }
+  
+  .navbar ul {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-evenly;
+    color: white;
+   
+
+  }
+  .navbar ul li{
+    list-style: none;
+    
+  }
+  
+  .navbar ul li a {
+    font-size: 36px;
+    list-style: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: ease 2sec;
+    color: black;
+    text-decoration: none;
+  }
+  .navbar ul li a:hover{
+    /* border: 2px solid transparent; */
+    box-shadow: 0px 6px 10px blue;
+    
+  }
